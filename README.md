@@ -60,4 +60,6 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 * High_risk category: 9% precision and 92% recall score
 * Low-risk category: 100% precision and 94% recall score
 
-## Analysis
+## Summary
+
+Overall, the modules have weak precision when determining high credit risk. The Easy Ensenble AdaBoost Classifier had the best performance in detecting high risk credit but the precision is low, so a lot of low risk are being misrepresented as high risk. The best model for detecting low risk is the Random Forest Model, and overall, this model would be the best one to use for predicting credit risk. 
