@@ -6,40 +6,58 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Results
 
-* Naive Random Oversampling
+### Naive Random Oversampling
 
 
 <img width="1097" alt="Screen Shot 2022-10-01 at 1 56 16 PM" src="https://user-images.githubusercontent.com/104036750/193425605-17f0d85e-501d-4abb-8066-64f9af9a2b63.png">
 
+* The balanced accuracy score is 66%.
+* High_risk category: 1% precision and 68% recall score
+* Low-risk category: 100% precision and 64% recall score
 
-* SMOTE Oversampling
+### SMOTE Oversampling
 
 
 <img width="1101" alt="Screen Shot 2022-10-01 at 1 59 08 PM" src="https://user-images.githubusercontent.com/104036750/193425608-5185ff37-4fdd-45a9-9c2a-32d4bbf758ff.png">
 
+* The balanced accuracy score is 66%.
+* High_risk category: 1% precision and 63% recall score
+* Low-risk category: 100% precision and 68% recall score
 
-* Undersampling
+### Undersampling
 
 
 <img width="1111" alt="Screen Shot 2022-10-01 at 1 59 27 PM" src="https://user-images.githubusercontent.com/104036750/193425610-d2faf7d1-003f-4201-af73-65a3f00efbe0.png">
 
+* The balanced accuracy score is 66%.
+* High_risk category: 1% precision and 68% recall score
+* Low-risk category: 100% precision and 64% recall score
 
-* Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
 
 
 <img width="1095" alt="Screen Shot 2022-10-01 at 1 59 43 PM" src="https://user-images.githubusercontent.com/104036750/193425614-e889e1e7-0062-4dd4-8e3c-f6ffe2af1319.png">
 
+* The balanced accuracy score is 64%.
+* High_risk category: 1% precision and 72% recall score
+* Low-risk category: 100% precision and 57% recall score
 
-* Balanced Random Forest Classifier
+### Balanced Random Forest Classifier
 
 
 <img width="1096" alt="Screen Shot 2022-10-01 at 2 42 31 PM" src="https://user-images.githubusercontent.com/104036750/193425752-6b835d38-cc6a-4ef8-b41c-cf83fe877170.png">
 
+* The balanced accuracy score is 68%.
+* High_risk category: 88% precision and 37% recall score
+* Low-risk category: 100% precision and 100% recall score
 
-* Easy Ensemble AdaBoost Classifier
+### Easy Ensemble AdaBoost Classifier
 
 
 <img width="1117" alt="Screen Shot 2022-10-01 at 2 42 45 PM" src="https://user-images.githubusercontent.com/104036750/193425754-b06b36a4-4cad-4dea-aa0a-1149f565713c.png">
 
+* The balanced accuracy score is 93%.
+* High_risk category: 9% precision and 92% recall score
+* Low-risk category: 100% precision and 94% recall score
 
-
+## Analysis
